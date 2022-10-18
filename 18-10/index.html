@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <div>
+        <p>
+            Please <span>fill</span> out this form.
+        </p>
+    </div>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Gender</legend>
+            
+                <input type="radio" name="gender" id="male" value="Male">
+                <label for="gender">Male</label>
+            
+            <br>
+            
+                <input type="radio" name="gender" id="female" value="Female">
+                <label for="gender">Female</label>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Favorite Animal</legend>
+            <input type="checkbox" name="Animal" id="Cat" value="Cat">
+            <img src="/images/cat.jpg" alt="Cat" width="100px" height="100px">
+            <label for="gender">Cat</label>
+            <br>
+            <input type="checkbox" name="Animal" id="Dog" value="Dog">
+            <img src="/images/dog.jpg" alt="Dog" width="100px" height="100px">
+
+            <label for="gender">Dog</label>
+            <br>
+            <input type="checkbox" name="Animal" id="Horse" value="Horse">
+            <img src="/images/Horse.jpg" alt="Horse" width="100px" height="100px">
+            <label for="gender">Horse</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>What's your name?</legend>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Ezikial">
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Tell us a bit about yourself</legend>
+            <textarea name="self" id="self" cols="30" rows="10" placeholder="My name is ..."></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>How many siblings do you have?</legend>
+            <label for="siblings">Siblings</label>
+            <select name="siblings" id="siblings">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+        </fieldset>
+
+        <label for="submit"></label>
+        <input type="submit" id="submit">
+    </form>
+</body>
+</html>
