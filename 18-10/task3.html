@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS COOK BOOK</title>
+    <style>
+        label{
+            display: inline-block;
+            width: 200px;
+        }
+    </style>
 </head>
 <body>
     <form action="">
@@ -47,19 +53,19 @@
             <option value="irbid">Irbid</option>
             <option value="amman">Amman</option>
         </select>
-        <br>
+        <br> <br>
         <label for="zip"><b>Zip*</b></label>
         <input type="text" required id="zip">
-        <br>
+        <br> <br>
         <label for="country"><b>Country*</b></label>
         <input type="text" required id="country">
-        <br>
+        <br> <br>
         <label for="genders"><b>Gender*</b></label>
         <input type="radio" id="female" name="genders">
         <label for="female">Female</label>
         <input type="radio" id="male" name="genders">
         <label for="male">Male</label>
-        <br>
+        <br> <br>
         <p><b>Misc. Information</b></p>
         <label for="income"><b>Annual Household Income</b></label>
 
@@ -68,24 +74,29 @@
             <option value="sth">sth</option>
             <option value="sth-else">sth else</option>
         </select>
-        <br>
+        <br> <br>
         <label for="intersts"><b>Interests</b></label>
         <input type="checkbox" name="intersts" id="shopping" value="shopping">
-            
+        <br>    
+        <br>    
         <label for="shopping">Shopping/Fashion</label>
         <input type="checkbox" name="sports" id="Sports" value="Sports">
         <label for="gender">Sports</label>
         <input type="checkbox" name="travel" id="Travel" value="Travel">
         <label for="gender">Travel</label>
+        <br>    
         <br>
         <label for="intersts"><b>Eye Color</b></label>
         <input type="checkbox" name="eye" id="eye" value="eye">
+        <br>    
+        <br>    
             
         <label for="eye">Red</label>
         <input type="checkbox" name="Green" id="Green" value="Green">
         <label for="gender">Green</label>
         <input type="checkbox" name="Brown" id="Brown" value="Brown">
         <label for="gender">Brown</label>
+        <br>    
         <br>
         <button>Submit</button>
         <button>Reset</button>
