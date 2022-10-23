@@ -1,0 +1,25 @@
+body {
+    background-color: pink;
+}
+
+#outer1 {
+
+}
+
+.grey{
+    display: inline-block;
+    width: 300px;
+    height: fit-content;
+    background-color: white;
+    color: black;
+    border: black solid 2px ;
+    margin: 20px ;
+    
+}
+
+sth {
+    overflow-y: scroll;
+    height: 50px;
+    width: 100%;
+    margin: 15px;
+}

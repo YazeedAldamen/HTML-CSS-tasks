@@ -1,0 +1,28 @@
+body {
+        background-color: yellow;
+}
+
+.whitebkgn {
+    background-color: white;
+    margin: 20px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.brown {
+    background-color: brown;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+    
+}
+
+.red    {
+    background-color: white;
+    margin: 20px;
+    padding: 5px;
+    border: 2px solid black;
+    color: red;
+}

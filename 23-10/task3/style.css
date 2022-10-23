@@ -1,0 +1,19 @@
+#styling   {
+    
+    font-size: 40px;
+    color: lightcoral;
+}
+h2 {
+    
+    float: right;
+}
+
+#para1 {
+ font-weight: bold;
+
+}
+
+#para2 {
+    font-family: monospace;
+    float: right;
+}
