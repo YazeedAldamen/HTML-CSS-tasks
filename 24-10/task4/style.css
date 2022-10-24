@@ -1,0 +1,22 @@
+#container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 10% 60% 30%;
+    height: 80vh;
+    gap: 15px;
+}
+
+#one {
+    background-color: black;
+    grid-column: 1/ span 2;
+}
+#two {
+    background-color: orange;
+}
+#three {
+    background-color: greenyellow;
+}
+#four {
+    background-color: aquamarine;
+    grid-column: 1 / span 2;
+}

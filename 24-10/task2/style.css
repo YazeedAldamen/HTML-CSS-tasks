@@ -1,0 +1,60 @@
+#main   {
+    background-color: burlywood;
+    height: 100vh;
+    padding: 10px;
+}
+
+#outer {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: 2px solid black;
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
+
+.line {
+    padding: 10px;
+    font-size: 100px;
+}
+#green  {
+    background-color: green;
+}
+
+#yellow  {
+    background-color: yellow ;
+    
+}
+
+#purple  {
+    background-color: purple ;
+}
+
+#grey  {
+    background-color: grey;
+}
+
+#blue  {
+    background-color: blue ;
+}
+
+#orange  {
+    background-color: orange;
+}
+
+#pink  {
+    background-color: pink;
+}
+
+#red  {
+    background-color: red ;
+}
+
+#black  {
+    background-color:black ;
+}
+
+#turquoise {
+    background-color: turquoise;
+}
