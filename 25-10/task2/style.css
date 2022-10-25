@@ -1,0 +1,55 @@
+#hght{
+    height: 1000px;
+}
+.pic {
+    display: inline-block;
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 35px;
+}
+#one{
+    background-image: url(/images/1.png);
+}
+
+#two {
+    background-image: url(/images/2.png);
+}
+
+#three {
+    background-image: url(/images/3.png);
+}
+
+#four   {
+    background-image: url(/images/4.png);
+}
+
+#five {
+    background-image: url(/images/5.png);
+}
+
+#six {
+    background-image: url(/images/6.png);
+}
+
+#seven {
+    background-image: url(/images/7.png);
+}
+#eight {
+    background-image: url(/images/8.png);
+}
+
+
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 768px)
+
+{
+    #one{
+        background-image: url(/images/2.png);
+    }
+}
+
+@media only screen and (min-device-width : 0px) and (nax-devuce-wudtg : 480px) {
+    
+}

@@ -1,0 +1,90 @@
+
+#outer {
+    background-color: burlywood;
+    height: 97vh;
+    display: flex;
+    padding: 5px 0px;
+
+}
+
+.inner   {
+        
+        text-align: center;
+        color: white;
+        font-size: 50px;
+        flex-grow: 1;
+        padding: 5px;
+
+    }
+
+#green  {
+    background-color: green;
+    margin-left: 10px;
+}
+
+#yellow  {
+    background-color: yellow ;
+    
+}
+
+#purple  {
+    background-color: purple ;
+}
+
+#grey  {
+    background-color: grey;
+}
+
+#blue  {
+    background-color: blue ;
+}
+
+#orange  {
+    background-color: orange;
+}
+
+#pink  {
+    background-color: pink;
+}
+
+#red  {
+    background-color: red ;
+}
+
+#black  {
+    background-color:black ;
+    margin-right: 10px;
+}
+
+@media only screen and (min-device-width:0px) and (max-device-width:480px){
+    #outer {
+        flex-direction: column;
+        padding: 5px;
+    }
+    #black  {
+        margin-right: 0px;
+    }
+    #green  {
+        margin-left: 0px;
+    }
+}
+
+
+
+@media only screen and (min-device-width:481px) and (max-device-width:768px){
+    #outer{
+        display: grid;
+        padding: 5px;
+        grid-template-columns: 50% 50%;
+        
+
+    }
+    #black  {
+        margin-right: 0px;
+    }
+    #green  {
+        margin-left: 0px;
+    }
+
+
+}

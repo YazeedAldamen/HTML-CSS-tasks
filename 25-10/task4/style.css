@@ -1,0 +1,89 @@
+#main   {
+    background-color: burlywood;
+    height: 100vh;
+    padding: 10px;
+    
+}
+
+#outer {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: 2px solid black;
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
+
+.line {
+    padding-bottom: px;
+    font-size: 50px;
+    padding-top: 100px;
+}
+#green  {
+    background-color: green;
+}
+
+#yellow  {
+    background-color: yellow ;
+    
+}
+
+#purple  {
+    background-color: purple ;
+}
+
+#grey  {
+    background-color: grey;
+}
+
+#blue  {
+    background-color: blue ;
+}
+
+#orange  {
+    background-color: orange;
+}
+
+#pink  {
+    background-color: pink;
+}
+
+#red  {
+    background-color: red ;
+}
+
+#black  {
+    background-color:black ;
+}
+
+#turquoise {
+    background-color: turquoise;
+}
+
+@media only screen and (min-device-width:0px) and (max-device-width:480px){
+    #outer{
+        grid-template-columns: auto;
+
+    }
+    .line {
+        padding-bottom: px;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (min-device-width:481px) and (max-device-width:768px){
+    #outer{
+        grid-template-columns: auto auto;
+
+    }
+    .line {
+        padding-bottom: px;
+        font-size: 30px;
+        padding-top: 50px;
+    }
+
+
+
+}

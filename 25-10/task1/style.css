@@ -1,0 +1,24 @@
+#top {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: black;
+    height: 400px;
+    width: 444px;
+}
+#outer {
+    position: relative;
+    top: 500px;
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+}
+
+#inner {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 150px;
+    width: 150px;
+    background-color: green;
+}
